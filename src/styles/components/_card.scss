@@ -1,0 +1,24 @@
+.card__mod {
+  color: $stark-black;
+  margin-bottom: $l-size;
+  width: 20rem;
+  align-items: center;
+  img {
+    margin-top: $s-size;
+    width: 13rem;
+    height: 10rem;
+  }
+}
+
+.card__mod__twitter {
+  background: $twitter-blue;
+}
+.card__mod__instagram {
+  background: $instagram-pink;
+}
+.card__mod__git {
+  background: $github-white;
+}
+.card__mod__youtube {
+  background: $youtube-red;
+}

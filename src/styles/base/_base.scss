@@ -1,0 +1,10 @@
+body {
+  background-color: $stark-black;
+  color: $off-white;
+  a {
+    text-decoration: none;
+    :hover {
+      text-decoration: none;
+    }
+  }
+}

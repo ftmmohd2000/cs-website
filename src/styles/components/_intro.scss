@@ -1,0 +1,15 @@
+.intro-block {
+  margin-bottom: $m-size;
+}
+
+.intro {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.profile-pic {
+  width: 300px;
+  margin-right: 5rem;
+  margin-left: 0;
+}
