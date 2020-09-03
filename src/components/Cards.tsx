@@ -27,7 +27,7 @@ const Cards = () => {
         title="My Youtube"
         src={youtubeSvg}
         altText="youtube-svg"
-        linkTo="https://www.instagram.com/mohd_f_m/"
+        linkTo="https://www.youtube.com/channel/UCZmpGbnFEhCMmFKbKfywfew?view_as=subscriber"
         classToBePassed="card__mod__youtube"
         description="I have nothing on this, lol."
       />
