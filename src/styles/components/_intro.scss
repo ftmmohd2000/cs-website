@@ -1,11 +1,14 @@
 .intro-block {
   margin-bottom: $m-size;
+  display: flex;
 }
 
 .intro {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  align-items: center;
+  flex: 1;
 }
 
 .profile-pic {
