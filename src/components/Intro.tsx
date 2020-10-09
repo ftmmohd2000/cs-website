@@ -3,7 +3,7 @@ import profilePic from "../images/profile.jpeg";
 
 const Intro = () => {
   return (
-    <div className="d-flex intro-block">
+    <div className="intro-block">
       <img src={profilePic} alt="profile-pic" className="profile-pic" />
       <div className="intro">
         <h4>My name is Mohammed Motorwala</h4>
