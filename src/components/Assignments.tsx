@@ -8,6 +8,10 @@ import img23x from "../images/img2_3_x.jpg";
 import img23y from "../images/img2_3_y.jpg";
 import img25x from "../images/img2_5_x.jpg";
 import img25y from "../images/img2_5_y.jpg";
+import dimg3x from "../images/imgx_3.jpg";
+import dimg3y from "../images/imgy_3.jpg";
+import dimg5x from "../images/imgx_5.jpg";
+import dimg5y from "../images/imgy_5.jpg";
 import in1 from "../images/in1.jpg";
 import in2 from "../images/in2.jpg";
 
@@ -60,6 +64,27 @@ const Assignments = () => {
           operator:
         </p>
         <img src={img25y} alt="in1" className="gamma" />
+        <h3>For this image, I also performed edge detection on the images</h3>
+        <p>
+          This is the result of filtering in the x direction with a 3x3
+          operator:
+        </p>
+        <img src={dimg3x} alt="in1" className="gamma" />
+        <p>
+          This is the result of filtering in the y direction with a 3x3
+          operator:
+        </p>
+        <img src={dimg3y} alt="in1" className="gamma" />
+        <p>
+          This is the result of filtering in the x direction with a 5x5
+          operator:
+        </p>
+        <img src={dimg5x} alt="in1" className="gamma" />
+        <p>
+          This is the result of filtering in the y direction with a 5x5
+          operator:
+        </p>
+        <img src={dimg5y} alt="in1" className="gamma" />
       </div>
       <Divider text="fin." />
     </>
